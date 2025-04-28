@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Confeitaria Galquerque</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-image: url('fundo-rosa-claro.jpg'); /* Substitua pelo caminho da sua imagem de fundo */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: #5c4033;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      max-width: 200px;
+      height: auto;
+    }
+    nav {
+      text-align: center;
+      margin: 20px 0;
+    }
+    nav a {
+      background-color: #d8a7b1;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 25px;
+      display: inline-block;
+    }
+    section {
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+    }
+    h2 {
+      border-bottom: 2px solid #d8a7b1;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+    }
+    .button-link {
+      background-color: #d8a7b1;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 10px 5px;
+      border-radius: 25px;
+      display: inline-block;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      background-color: #f2e8e9;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Logo da Confeitaria Galquerque" />
+  </header>
+
+  <nav>
+    <a href="#cardapio">Cardápio</a>
+    <a href="#contrato">Contrato</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="cardapio">
+    <h2>Cardápio</h2>
+    <ul>
+      <li><strong>Bolo de Chocolate</strong> - R$ 50,00</li>
+      <li><strong>Brigadeiro Gourmet</strong> - R$ 3,00 (unidade)</li>
+      <li><strong>Bem-casado</strong> - R$ 4,00 (unidade)</li>
+      <li><strong>Torta de Morango</strong> - R$ 65,00</li>
+      <li><strong>Caixa de Doces Finos</strong> - R$ 80,00</li>
+    </ul>
+  </section>
+
+  <section id="contrato">
+    <h2>Contrato</h2>
+    <p>Para encomendas e eventos, confira nosso contrato:</p>
+    <a class="button-link" href="contrato.pdf" target="_blank">Baixar Contrato</a>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Fale conosco pelo WhatsApp ou siga nosso Instagram!</p>
+    <a class="button-link" href="https://wa.me/+5515997446356" target="_blank">WhatsApp</a>
+    <a class="button-link" href="https://instagram.com/confeitariagalquerque" target="_blank">Instagram</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Confeitaria Galquerque | Todos os direitos reservados
+  </footer>
+
+</body>
+</html>
